@@ -9,7 +9,7 @@
 
 import { mkdirSync, writeFileSync } from "node:fs";
 import { dirname, resolve } from "node:path";
-import { captureWithHar } from "./src/har-capture.ts";
+import { captureWithHar } from "./src/har-capture";
 
 interface CliOptions {
   waitMs?: number;
